@@ -1,3 +1,5 @@
+package net.pepoirot.bsdiff;
+
 import org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream;
 
 import java.io.IOException;

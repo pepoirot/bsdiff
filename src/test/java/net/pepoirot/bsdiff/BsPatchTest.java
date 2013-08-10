@@ -1,3 +1,5 @@
+package net.pepoirot.bsdiff;
+
 import org.apache.commons.io.FileUtils;
 import org.junit.Test;
 
