@@ -2,7 +2,7 @@ Partial port of bsdiff 4.3 to Java, using Apache Commons Compress:
 - bspatch ported
 - bsdiff TODO
 
-Current version requires Java 1.8.
+The current version requires Java 11.
 
 Original bsdiff by Colin Percival:
     http://www.daemonology.net/bsdiff/
@@ -20,7 +20,7 @@ or:
         -v "$PWD":/home/gradle/project \
         -w /home/gradle/project \
         --rm \
-        gradle:6.7-jdk11 \
+        gradle:7-jdk11 \
         gradle clean build
 
 ## Running
@@ -43,5 +43,5 @@ or:
         -v "$PWD":/home/gradle/project \
         -w /home/gradle/project \
         --rm \
-        gradle:6.7-jdk11 \
-        gradle wrapper --gradle-version 6.7.1
+        gradle:7-jdk11 \
+        gradle wrapper --gradle-version 7.6
