@@ -20,7 +20,7 @@ or:
         -v "$PWD":/home/gradle/project \
         -w /home/gradle/project \
         --rm \
-        gradle:7-jdk11 \
+        gradle:8-jdk11 \
         gradle clean build
 
 ## Running
@@ -43,5 +43,5 @@ or:
         -v "$PWD":/home/gradle/project \
         -w /home/gradle/project \
         --rm \
-        gradle:7-jdk11 \
-        gradle wrapper --gradle-version 7.6
+        gradle:8-jdk11 \
+        gradle wrapper --gradle-version 8.2.1

@@ -1,4 +1,4 @@
-FROM gradle:7-jdk11
+FROM gradle:8-jdk11
 
 ARG user=gradle
 ARG project_dir="/home/gradle/project/"
