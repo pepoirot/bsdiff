@@ -15,8 +15,8 @@ jobs:
           distribution: 'adopt'
       - name: Validate wrapper
         uses: gradle/wrapper-validation-action@v1
-      - name: Build
-        uses: gradle/gradle-build-action@v2
+      - name: Build and tests
+        uses: gradle/gradle-build-action@v2.6.0
         with:
-          arguments: build
+          arguments: build test
           gradle-version: wrapper
